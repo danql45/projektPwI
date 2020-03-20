@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+        <meta charset="UTF-8">
+        <title>projektPwl</title>
+        <link rel="stylesheet" href="projektstyle.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <style>
+            body{
+                margin: 0;
+                background-color: rgba(179, 179, 179, 0.479);
+            }
+            .my-container{
+                empty-cells: hide;
+            }
+            .my-row{
+                height: 400px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding: 0;
+            
+            }
+            .my-col{
+                border-radius: 15px;
+                border: 3px solid white;
+                background-color: white;
+            }
+        </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="bg-dark">
+            <nav class="row navbar navbar-dark bg-dark d-flex flex-nowrap">
+                <div class="col ml-auto" id="one1">
+                    <a class="navbar-brand" href="#">
+                        <img src="logochilli2.png" width="50" height="30" class="d-inline-block align-top" alt="">
+                        Chilli
+                    </a>
+                </div>
+                <div class="col-3 ml-auto d-sm-none d-md-block" id="one2">
+                    <form class="form-inline my-2 my-lg-0 justify-content-end flex-nowrap">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Szukaj</button>
+                    </form>
+                </div>
+                <div class="col-5 mr-auto d-sm-none d-md-block justify-content-end text-nowrap">
+                    <a id="one3" class="test-loginButton btn btn--mode-header-login btn--toW5-square" href="#">
+                        <svg width="18px" height="18px" class="icon icon--person">
+                            <use xlink:href="/assets/img/ico_6d326.svg#person"></use>
+                        </svg>
+                        <span class="space--l-2 hide--toW5">Zarejestruj się / Zaloguj Się</span></a>
+                </div>
+                <div class="col-2 d-md-block justify-content-end" id="dodajbutt">
+                    <button type="button" class="btn btn-danger">+Dodaj</button>
+                </div>
+            </nav>
+        </header>
+        <div class="row d-flex flex-nowrap bg-dark" id="subnav1">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" id="sub1" href="01loginpage.html">Najlepsze</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="sub2" href="01loginpage.html">Najnowsze</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="sub3" href="01loginpage.html">Komentowane</a>
+                </li>
+                <li class="nav-item dropdown mr-1" id="subNavfilter">
+                        <a class="nav-link dropdown-toggle" id="sub4" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Filtruj</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <div>
+                <div class="container my-container">
+                    <div class="row justify-content-around aling-items-stretch my-row" id="rowgrid1">
+                        <div class="col-2 col-md-2 my-col">
+                            row 1 col1
+                        </div>
+                        <div class="col-2 col-md-2 my-col">
+                            row 1 col2
+                        </div>
+                        <div class="col-2 col-md-2 my-col">
+                            row 1 col3
+                        </div>
+                        <div class="col-2 col-md-2 my-col">
+                            row 1 col4
+                        </div>
+                        <div class="col-2 col-md-2 my-col">
+                            row 1 col5
+                        </div>
+                    </div>
+                    <div class="row justify-content-around aling-items-stretch my-row" id="rowgrid2">
+                        <div class="col-2 col-md-2 my-col">
+                            row 2 col1
+                        </div>
+                        <div class="col-2 col-md-2 my-col">
+                            row 2 col2
+                        </div>
+                        <div class="col-2 col-md-2 my-col">
+                            row 2 col3
+                        </div>
+                        <div class="col-2 col-md-2 my-col">
+                            row 2 col4
+                        </div>
+                        <div class="col-2 col-md-2 my-col">
+                            row 2 col5
+                        </div>
+                    </div>
+                    <div class="row justify-content-around aling-items-stretch my-row" id="rowgrid3">
+                        <div class="col-2 col-md-2 my-col">
+                            row 3 col1
+                        </div>
+                        <div class="col-2 col-md-2 my-col">
+                            row 3 col2
+                        </div>
+                        <div class="col-2 col-md-2 my-col">
+                            row 3 col3
+                        </div>
+                        <div class="col-2 col-md-2 my-col">
+                            row 3 col4
+                        </div>
+                        <div class="col-2 col-md-2 my-col">
+                            row 3 col5
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+        <aside class="row justify-content-center bg-dark">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center" id="pageswitch">
+                  <li class="page-item disabled">
+                    <a class="page-link text-warning bg-dark" href="#" tabindex="-1">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link text-white bg-dark" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link text-white bg-dark" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link text-white bg-dark" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link text-warning bg-dark" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+        </aside>
+        
+        <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+            <div class="container text-center text-md-left">
+            <div class="row">
+            <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+                <img src="logochilli2.png" width="50" height="30" class="d-inline-block align-top" alt="">
+                <h5 class="font-weight-bold text-uppercase mb-4">Największa społeczność łowców okazji w Polsce</h5>
+                <p>Chilli.pl to społeczność dla osób poszukujących prawdziwych okazji. Znajdź, oceniaj i komentuj najlepsze okazje i kupony znalezione w internecie i poza nim.</p>
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+                <h5 class="font-weight-bold text-uppercase mb-4">Firma</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <p>
+                            <a href="#!">PROJECTS</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="#!">ABOUT US</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="#!">BLOG</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="#!">AWARDS</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+                <h5 class="font-weight-bold text-uppercase mb-4">Informacje prawne</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                        </li>
+                        <li>
+                            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                        </li>
+                        <li>
+                            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        </li>
+                        <li>
+                            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                        </li>
+                    </ul>
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+                <h5 class="font-weight-bold text-uppercase mb-4">Obserwuj nas</h5>
+                    <a class="btn-floating btn-fb" href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn-floating btn-tw" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="btn-floating btn-gplus" href="#">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    <a class="btn-floating btn-dribbble" href="#">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+            </div>
+            </div>
+            </div>
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://chilli.pl/"> Chilli.pl</a>
+            </div>
+        </footer>
+
+        </div>
+
+        <div class="popup">
+            <div class="popup-content">
+                <img src="close.png" alt="Close" class="close">
+                <img src="user.png" alt="User" width="70" height="70" id="user">
+                <input type="text" placeholder="Login">
+                <input type="text" placeholder="Hasło">
+                <a href="#" id="logbutton" class="button btn btn--mode-header-login btn--toW5-square">Zaloguj się</a>
+            </div>
+        </div>
+        <script>
+            document.getElementById("one3").addEventListener("click", function(){
+                document.querySelector(".popup").style.display = "flex";
+            })
+
+            document.querySelector(".close").addEventListener("click", function(){
+                document.querySelector(".popup").style.display = "none";
+            })
+        </script>
+</body>
