@@ -72,79 +72,44 @@
             </ul>
         </div>
 
-        <div>
-            <div>
-                <div class="container my-container">
-                    <div class="row justify-content-around aling-items-stretch my-row" id="rowgrid1">
-                        <div class="col-2 col-md-2 my-col">
-                            row 1 col1
-                        </div>
-                        <div class="col-2 col-md-2 my-col">
-                            row 1 col2
-                        </div>
-                        <div class="col-2 col-md-2 my-col">
-                            row 1 col3
-                        </div>
-                        <div class="col-2 col-md-2 my-col">
-                            row 1 col4
-                        </div>
-                        <div class="col-2 col-md-2 my-col">
-                            row 1 col5
-                        </div>
-                    </div>
-                    <div class="row justify-content-around aling-items-stretch my-row" id="rowgrid2">
-                        <div class="col-2 col-md-2 my-col">
-                            row 2 col1
-                        </div>
-                        <div class="col-2 col-md-2 my-col">
-                            row 2 col2
-                        </div>
-                        <div class="col-2 col-md-2 my-col">
-                            row 2 col3
-                        </div>
-                        <div class="col-2 col-md-2 my-col">
-                            row 2 col4
-                        </div>
-                        <div class="col-2 col-md-2 my-col">
-                            row 2 col5
-                        </div>
-                    </div>
-                    <div class="row justify-content-around aling-items-stretch my-row" id="rowgrid3">
-                        <div class="col-2 col-md-2 my-col">
-                            row 3 col1
-                        </div>
-                        <div class="col-2 col-md-2 my-col">
-                            row 3 col2
-                        </div>
-                        <div class="col-2 col-md-2 my-col">
-                            row 3 col3
-                        </div>
-                        <div class="col-2 col-md-2 my-col">
-                            row 3 col4
-                        </div>
-                        <div class="col-2 col-md-2 my-col">
-                            row 3 col5
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+        <div class="container" id="kontakt">
+            <br />
+            <h2 style="text-align: center;">Skontaktuj się z nami</h2><br>
+            <div id="tekstinput1">
+                <h5 style="margin-left: 134px;">TEMAT</h5>
+                <select class="select-ctrl input">
+                    <option value="">Jaki jest temat Twojej wiadomości?</option>
+                    <option value="0">Aspekty prawne</option>
+                    <option value="1">Błąd lub nowa funkcja</option>
+                    <option value="2">Konto Użytkownika</option>
+                    <option value="3">Moderator</option>
+                    <option value="4">Pomoc Techniczna</option>
+                    <option value="5">PR</option>
+                    <option value="6">Współpraca</option>
+                    <option value="7">Pozostałe</option>
+                </select>
+            </div><br />
+            <div id="tekstinput2">
+                <h5 style="margin-left: 87px;">TWOJE IMIĘ</h5>
+                <input type="text" placeholder="Imię">
+            </div><br>
+            <div id="tekstinput3">
+                <h5 style="margin-left: 72px;">TWÓJ E-MAIL</h5>
+                <input type="text" placeholder="something@example.com">
+            </div><br>
+            <div id="tekstinput4">
+                <h5>TWOJA WIADOMOŚĆ</h5>
+                <input id="contactmessage" type="text" placeholder="Napisz wiadomość">
+            </div><br>
+            <div class="d-flex justify-content-center">
+                <a class="btn btn-success" href="confmessage.html">Wyślij</a>
+            </div><br>
         </div>
-   
-        <aside class="row justify-content-center bg-dark">
-            <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center" id="pageswitch">
-                  <li class="page-item disabled">
-                    <a class="page-link text-warning bg-dark" href="#" tabindex="-1">Previous</a>
-                  </li>
-                  <li class="page-item"><a class="page-link text-white bg-dark" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link text-white bg-dark" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link text-white bg-dark" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link text-warning bg-dark" href="#">Next</a>
-                  </li>
-                </ul>
-              </nav>
-        </aside>
+        <div>
+            <hr style="height: 3px; border: 0px; margin: 0; padding: 0; margin-left: 0;" class="bg-dark">
+        </div>
+
         
         <footer class="page-footer font-small mdb-color lighten-3 pt-4">
             <div class="container text-center text-md-left">
