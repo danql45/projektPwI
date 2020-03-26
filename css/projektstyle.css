@@ -1,25 +1,7 @@
-/* #one1{
-    margin-left: auto;
-} */
-
-/* form{
-    margin-left: auto;
-    flex: 2;
-} */
 
 header{
     margin-top: 0;
 }
-
-
-/* nav ul{
-    flex: 2;
-    background-color: chartreuse;
-} */
-/* 
-.form-control{
-    white-space: nowrap;
-} */
 
 #one2{
     overflow: hidden;
@@ -30,23 +12,15 @@ header{
     color: white;
 }
 
-/* .ml-1 {
-    margin-left: 5%;
-} */
 header{
   margin-left: 0;
   margin-right: 0;
 }
 
-
 section li{
     color: crimson;
 }
 
-/* #myTab{
-    color: brown;
- 
-} */
 
 #subnav1{
     margin-top: 1px;
@@ -75,6 +49,9 @@ section li{
     
 }
 
+#dodajbutt{
+    margin-right: 50px;
+}
 
 
 #pageswitch li{
@@ -293,3 +270,226 @@ input{
     cursor: pointer;
 }
 /* login page end*/
+
+
+
+
+
+/*flex box main page*/
+.container-1{
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.container-1 div{
+    background-color: white;
+    /*
+    border: 2px rgb(41, 44, 51) solid;
+    border-radius: 15px;
+     */
+    padding: 10px;
+    height: 400px;
+    width: 70%;
+    min-width: 30%;
+}
+
+.box-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.box-1 img{
+    height: 100%;
+    width: 100%;
+}
+
+#titleokazja-1{
+    max-height: 16%;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+    color: rgb(255, 123, 0);
+
+    border-radius: 10px;
+}
+
+#imgitextokazja-1{
+    width: 100%;
+    height: 80%;
+}
+
+#imgokazja-1{
+    margin-top: auto;
+    flex: 1;
+    margin-right: 10px;
+    max-height: 100%;
+    align-self: center;
+    align-items: center;
+}
+#opisokazja-1{
+    flex: 3;
+    max-height: 100%;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+
+
+.box-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.box-2 img{
+    height: 100%;
+    width: 100%;
+}
+
+#titleokazja-2{
+    max-height: 16%;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+    color: rgb(255, 123, 0);
+
+    border-radius: 10px;
+}
+
+#imgitextokazja-2{
+    width: 100%;
+    height: 80%;
+}
+
+#imgokazja-2{
+    margin-top: auto;
+    flex: 1;
+    margin-right: 10px;
+    max-height: 100%;
+    align-self: center;
+    align-items: center;
+}
+#opisokazja-2{
+    flex: 3;
+    max-height: 100%;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+
+
+.box-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.box-3 img{
+    height: 100%;
+    width: 100%;
+}
+
+#titleokazja-3{
+    max-height: 16%;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+    color: rgb(255, 123, 0);
+
+    border-radius: 10px;
+}
+
+#imgitextokazja-3{
+    width: 100%;
+    height: 80%;
+}
+
+#imgokazja-3{
+    margin-top: auto;
+    flex: 1;
+    margin-right: 10px;
+    max-height: 100%;
+    align-self: center;
+    align-items: center;
+}
+#opisokazja-3{
+    flex: 3;
+    max-height: 100%;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+#adminbox-1{
+    border: unset;
+    background-color: unset;
+    margin-top: 1px;
+    margin-bottom: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    white-space: nowrap;
+}
+#adminbox-2{
+    border: unset;
+    background-color: unset;
+    margin-top: 1px;
+    margin-bottom: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    white-space: nowrap;
+}
+#adminbox-3{
+    border: unset;
+    background-color: unset;
+    margin-top: 1px;
+    margin-bottom: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+/*admin log page*/
+#adminlogbody{
+    background: #eee;
+}
+#admindiv{
+    border: solid grey 1px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 100px auto;
+    background: white;
+}
+#adminbtn{
+    color: #fff;
+    background: #337ab7;
+}
+
+#admindiv p input{
+    width: 80%;
+}
+#admindiv p label{
+    padding: 6%;
+}
