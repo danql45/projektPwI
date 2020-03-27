@@ -33,9 +33,9 @@
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Szukaj</button>
                     </form>
                     <div class="d-none d-md-block justify-content-end text- mr-3 ml-3">
-                        <a id="one3" class="test-loginButton btn btn--mode-header-login btn--toW5-square" href="index.html">
+                        <a id="one3" class="test-loginButton btn btn--mode-header-login btn--toW5-square" href="#">
                             <img src="images/pngwave.png" width="25" height="25" class="d-inline-block align-top" alt="">
-                            <span class="space--l-2 hide--toW5">Wyloguj</span></a>
+                            <span class="space--l-2 hide--toW5">Zarejestruj się / Zaloguj Się</span></a>
                     </div>
                     <div class="d-flex justify-content-end" id="dodajbutt">
                         <a class="btn btn-danger" href="add.html">+Dodaj</a>
@@ -57,64 +57,54 @@
             </ul>
         </div>
 
-        <div class="container-1">
-
-            <div class="box-1">
-                <div id="titleokazja-1" class="bg-dark"><h3 >Tytuł</h3><h6><time datetime="1980-01-01 09:00">1 stycznia 1980, godz. 9.00</time></h6></div>
-                <div id="imgitextokazja-1" class="d-flex">
-                    <div id="imgokazja-1" class="d-flex justify-content-center"><img src="https://sina.salek.ws/sites/default/files/imagefield_default_images/nophoto.jpg" alt=""></div>
-                    <div id="opisokazja-1"><p>OPIS</p></div>
+        <div class="container">
+            <div class="row">
+                <div class="col" id="addokazja1">
+                    <br />
+                    <h3>Edytuj</h3><br>
+                    <div id="tekstinputadd">
+                        <div>
+                            <h3>NOWY LINK</h3>
+                            <input type="text" placeholder="http://www.example.com/deal...">
+                        </div><br>
+                        <hr style="height: 1px; border: 0px; margin: 0; padding: 0; margin-left: 0;" class="bg-dark"><br>
+                        <div>
+                            <h3>Szczegóły</h3><br>
+                            <h6>NOWA CENA OFERTY</h6>
+                            <div class="d-flex" style="margin-bottom: 10px;">
+                                <input style="margin-right: 10px;" type="text" placeholder="0,00">
+                            </div>
+                            <h6>NOWY TYTUŁ OFERTY</h6>
+                            <div class="d-flex">
+                                <input style="margin-right: 10px;" type="text" placeholder="Krótki tytuł opisujący znalezioną okazję">
+                            </div>
+                        </div><br>
+                        <div>
+                            <h6>NOWY OPIS</h6>
+                            <input style="height: 200px;" type="text" placeholder="Opisz znalezioną okazje własnymi słowami.">
+                        </div><br>
+                    </div>
+                    <div class="d-flex justify-content-start">
+                        <a class="btn btn-success" href="#">Edytuj</a>
+                    </div><br>
                 </div>
-            </div>
-            <div id=adminbox-1>
-                <a class="btn btn-primary" href="usunokazje.html">Usuń okazje</a>
-                <a class="btn btn-primary" href="edytuj.html">Edytuj okazje</a>
-                <a class="btn btn-danger" href="usunuzytkownika.html">Usuń użytkownika</a>
-            </div>
+                <!-- <div class="col-1"></div>
 
-            <div class="box-2">
-                <div id="titleokazja-2" class="bg-dark"><h3 >Tytuł</h3><h6><time datetime="1980-01-01 09:00">1 stycznia 1980, godz. 9.00</time></h6></div>
-                <div id="imgitextokazja-2" class="d-flex">
-                    <div id="imgokazja-2" class="d-flex justify-content-center"><img src="https://sina.salek.ws/sites/default/files/imagefield_default_images/nophoto.jpg" alt=""></div>
-                    <div id="opisokazja-2"><p>OPIS</p></div>
-                </div>
+                <div class="col-5" id="addokazja2">
+                    <div class="row">
+                        <h3>Podgląd</h3>
+                    </div>
+                    <div class="row" id="addokazja3">
+                        <button id="close-image">
+                        <img src="https://image.shutterstock.com/image-vector/grunge-red-sample-word-round-260nw-1242668641.jpg"></button>
+                    </div>
+                </div> -->
             </div>
-            <div id=adminbox-2>
-                <a class="btn btn-primary" href="usunokazje.html">Usuń okazje</a>
-                <a class="btn btn-primary" href="edytuj.html">Edytuj okazje</a>
-                <a class="btn btn-danger" href="usunuzytkownika.html">Usuń użytkownika</a>
-            </div>
-
-            <div class="box-3">
-                <div id="titleokazja-3" class="bg-dark"><h3 >Tytuł</h3><h6><time datetime="1980-01-01 09:00">1 stycznia 1980, godz. 9.00</time></h6></div>
-                <div id="imgitextokazja-3" class="d-flex">
-                    <div id="imgokazja-3" class="d-flex justify-content-center"><img src="https://sina.salek.ws/sites/default/files/imagefield_default_images/nophoto.jpg" alt=""></div>
-                    <div id="opisokazja-3"><p>OPIS</p></div>
-                </div>
-            </div>
-            <div id=adminbox-3>
-                <a class="btn btn-primary" href="usunokazje.html">Usuń okazje</a>
-                <a class="btn btn-primary" href="edytuj.html">Edytuj okazje</a>
-                <a class="btn btn-danger" href="usunuzytkownika.html">Usuń użytkownika</a>
-            </div>
-
         </div>
-   
-        <aside class="row justify-content-center bg-dark">
-            <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center" id="pageswitch">
-                  <li class="page-item disabled">
-                    <a class="page-link text-warning bg-dark" href="#" tabindex="-1">Previous</a>
-                  </li>
-                  <li class="page-item"><a class="page-link text-white bg-dark" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link text-white bg-dark" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link text-white bg-dark" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link text-warning bg-dark" href="#">Next</a>
-                  </li>
-                </ul>
-              </nav>
-        </aside>
+        
+        <div>
+            <hr style="height: 3px; border: 0px; margin: 0; padding: 0; margin-left: 0;" class="bg-dark">
+        </div>
         
         <footer class="page-footer font-small mdb-color lighten-3 pt-4">
             <div class="container text-center text-md-left">
@@ -175,5 +165,23 @@
 
         </div>
 
+        <div class="popup">
+            <div class="popup-content">
+                <img src="images/close.png" alt="Close" class="close">
+                <img src="images/user.png" alt="User" width="70" height="70" id="user">
+                <input type="text" placeholder="Login">
+                <input type="text" placeholder="Hasło">
+                <a href="#" id="logbutton" class="button btn btn--mode-header-login btn--toW5-square">Zaloguj się</a>
+            </div>
 
+        </div>
+        <script>
+            document.getElementById("one3").addEventListener("click", function(){
+                document.querySelector(".popup").style.display = "flex";
+            })
+
+            document.querySelector(".close").addEventListener("click", function(){
+                document.querySelector(".popup").style.display = "none";
+            })
+        </script>
 </body>
